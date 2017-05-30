@@ -1,0 +1,358 @@
+2017-05-30 18:30:51,098 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'maven-project'                         +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-05-30 18:30:51,876 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2017-05-30 18:30:51,952 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2017-05-30 18:30:52,116 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2017-05-30 18:30:52,116 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.8)
+2017-05-30 18:30:52,164 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@f9b7332: startup date [Tue May 30 18:30:52 EDT 2017]; root of context hierarchy
+2017-05-30 18:30:53,400 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-05-30 18:30:54,161 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2017-05-30 18:30:54,457 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\gaujain\Mule_Advanced\workspace_1\test_maven_0530\.mule\.\.mule\maven-project\queue-tx-log\tx1.log and C:\Users\gaujain\Mule_Advanced\workspace_1\test_maven_0530\.mule\.\.mule\maven-project\queue-tx-log\tx2.log
+2017-05-30 18:30:54,477 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\gaujain\Mule_Advanced\workspace_1\test_maven_0530\.mule\.\.mule\maven-project\queue-xa-tx-log\tx1.log and C:\Users\gaujain\Mule_Advanced\workspace_1\test_maven_0530\.mule\.\.mule\maven-project\queue-xa-tx-log\tx2.log
+2017-05-30 18:30:54,587 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2017-05-30 18:30:55,336 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\gaujain\Mule_Advanced\workspace_1\test_maven_0530\.mule\apps\maven-project\maven-project.xml'}]"
+2017-05-30 18:30:55,336 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\gaujain\Mule_Advanced\workspace_1\test_maven_0530\.mule\apps\maven-project\maven-project.xml'}]"
+2017-05-30 18:30:55,420 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'maven-project'                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-05-30 18:30:55,422 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2017-05-30 18:30:55,422 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2017-05-30 18:30:55,456 [main] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-05-30 18:30:55,458 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2017-05-30 18:30:55,529 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2017-05-30 18:30:55,562 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: maven-project                                         *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   JMX Agent                                                        *
+*   Batch module default engine                                      *
+*   DevKit Extension Information                                     *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2017-05-30 18:31:10,593 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Stopping app 'maven-project'                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-05-30 18:31:10,603 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Stopping model: _muleSystemModel
+2017-05-30 18:31:10,613 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Stopping ResourceManager
+2017-05-30 18:31:10,613 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Stopped ResourceManager
+2017-05-30 18:31:10,624 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Disposing app 'maven-project'                            +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-05-30 18:31:10,626 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing RegistryBroker
+2017-05-30 18:31:10,629 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing model: _muleSystemModel
+2017-05-30 18:31:10,822 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.MuleArtifactContext - Closing org.mule.config.spring.MuleArtifactContext@f9b7332: startup date [Tue May 30 18:30:52 EDT 2017]; root of context hierarchy
+2017-05-30 18:31:10,953 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application "maven-project" shut down normally on: 5/30/17 6:31 PM *
+* Up for: 0 days, 0 hours, 0 mins, 15.533 sec                        *
+**********************************************************************
+2017-05-30 18:31:11,127 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'maven-project'                         +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-05-30 18:31:11,133 [Mule.app.deployer.monitor.1.thread.1] WARN  com.mulesoft.module.client.APIPlatformClientCoreExtension - Client ID or Client Secret were not provided. API Manager client is DISABLED for app maven-project
+2017-05-30 18:31:11,135 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2017-05-30 18:31:11,135 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2017-05-30 18:31:11,155 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2017-05-30 18:31:11,155 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.8)
+2017-05-30 18:31:11,155 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@2dce58ff: startup date [Tue May 30 18:31:11 EDT 2017]; root of context hierarchy
+2017-05-30 18:31:11,557 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-05-30 18:31:11,667 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\gaujain\Mule_Advanced\workspace_1\test_maven_0530\.mule\.\.mule\maven-project\queue-tx-log\tx1.log and C:\Users\gaujain\Mule_Advanced\workspace_1\test_maven_0530\.mule\.\.mule\maven-project\queue-tx-log\tx2.log
+2017-05-30 18:31:11,677 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\gaujain\Mule_Advanced\workspace_1\test_maven_0530\.mule\.\.mule\maven-project\queue-xa-tx-log\tx1.log and C:\Users\gaujain\Mule_Advanced\workspace_1\test_maven_0530\.mule\.\.mule\maven-project\queue-xa-tx-log\tx2.log
+2017-05-30 18:31:11,688 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2017-05-30 18:31:11,708 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\gaujain\Mule_Advanced\workspace_1\test_maven_0530\.mule\apps\maven-project\maven-project.xml'}]"
+2017-05-30 18:31:11,708 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\gaujain\Mule_Advanced\workspace_1\test_maven_0530\.mule\apps\maven-project\maven-project.xml'}]"
+2017-05-30 18:31:11,708 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'maven-project'                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-05-30 18:31:11,718 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2017-05-30 18:31:11,718 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2017-05-30 18:31:11,728 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-05-30 18:31:11,728 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2017-05-30 18:31:11,738 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2017-05-30 18:31:11,748 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: maven-project                                         *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   JMX Agent                                                        *
+*   Batch module default engine                                      *
+*   DevKit Extension Information                                     *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2017-05-30 18:31:46,818 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Stopping app 'maven-project'                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-05-30 18:31:46,818 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Stopping model: _muleSystemModel
+2017-05-30 18:31:46,828 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Stopping ResourceManager
+2017-05-30 18:31:46,828 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Stopped ResourceManager
+2017-05-30 18:31:46,828 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Disposing app 'maven-project'                            +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-05-30 18:31:46,828 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing RegistryBroker
+2017-05-30 18:31:46,838 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing model: _muleSystemModel
+2017-05-30 18:31:46,858 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.MuleArtifactContext - Closing org.mule.config.spring.MuleArtifactContext@2dce58ff: startup date [Tue May 30 18:31:11 EDT 2017]; root of context hierarchy
+2017-05-30 18:31:46,985 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application "maven-project" shut down normally on: 5/30/17 6:31 PM *
+* Up for: 0 days, 0 hours, 0 mins, 35.277 sec                        *
+**********************************************************************
+2017-05-30 18:31:47,283 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'maven-project'                         +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-05-30 18:31:47,288 [Mule.app.deployer.monitor.1.thread.1] WARN  com.mulesoft.module.client.APIPlatformClientCoreExtension - Client ID or Client Secret were not provided. API Manager client is DISABLED for app maven-project
+2017-05-30 18:31:47,288 [Mule.app.deployer.monitor.1.thread.1] WARN  com.mulesoft.module.client.APIPlatformClientCoreExtension - Client ID or Client Secret were not provided. API Manager client is DISABLED for app maven-project
+2017-05-30 18:31:47,304 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2017-05-30 18:31:47,309 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2017-05-30 18:31:47,323 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2017-05-30 18:31:47,323 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.8)
+2017-05-30 18:31:47,330 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@19668edf: startup date [Tue May 30 18:31:47 EDT 2017]; root of context hierarchy
+2017-05-30 18:31:47,734 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing RegistryBroker
+2017-05-30 18:31:47,904 [Mule.app.deployer.monitor.1.thread.1] ERROR org.mule.module.launcher.application.DefaultMuleApplication - null
+org.xml.sax.SAXParseException: cvc-complex-type.4: Attribute 'value' must appear on element 'set-payload'.
+	at org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source) ~[?:?]
+	at org.apache.xerces.util.ErrorHandlerWrapper.error(Unknown Source) ~[?:?]
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source) ~[?:?]
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source) ~[?:?]
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source) ~[?:?]
+	at org.apache.xerces.impl.xs.XMLSchemaValidator$XSIErrorReporter.reportError(Unknown Source) ~[?:?]
+	at org.apache.xerces.impl.xs.XMLSchemaValidator.reportSchemaError(Unknown Source) ~[?:?]
+	at org.apache.xerces.impl.xs.XMLSchemaValidator.addDefaultAttributes(Unknown Source) ~[?:?]
+	at org.apache.xerces.impl.xs.XMLSchemaValidator.handleStartElement(Unknown Source) ~[?:?]
+	at org.apache.xerces.impl.xs.XMLSchemaValidator.emptyElement(Unknown Source) ~[?:?]
+	at org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source) ~[?:?]
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source) ~[?:?]
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source) ~[?:?]
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source) ~[?:?]
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source) ~[?:?]
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source) ~[?:?]
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source) ~[?:?]
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source) ~[?:?]
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:76) ~[spring-beans-4.1.9.RELEASE.jar:4.1.9.RELEASE]
+	at org.mule.config.spring.MuleDocumentLoader.loadDocument(MuleDocumentLoader.java:91) ~[mule-module-spring-config-3.8.4.jar:3.8.4]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadDocument(XmlBeanDefinitionReader.java:429) ~[spring-beans-4.1.9.RELEASE.jar:4.1.9.RELEASE]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:391) ~[spring-beans-4.1.9.RELEASE.jar:4.1.9.RELEASE]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336) ~[spring-beans-4.1.9.RELEASE.jar:4.1.9.RELEASE]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304) ~[spring-beans-4.1.9.RELEASE.jar:4.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:181) ~[spring-beans-4.1.9.RELEASE.jar:4.1.9.RELEASE]
+	at org.mule.config.spring.MuleArtifactContext.loadBeanDefinitions(MuleArtifactContext.java:192) ~[mule-module-spring-config-3.8.4.jar:3.8.4]
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:129) ~[spring-context-4.1.9.RELEASE.jar:4.1.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:541) ~[spring-context-4.1.9.RELEASE.jar:4.1.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:452) ~[spring-context-4.1.9.RELEASE.jar:4.1.9.RELEASE]
+	at org.mule.config.spring.SpringRegistry.doInitialise(SpringRegistry.java:108) ~[mule-module-spring-config-3.8.4.jar:3.8.4]
+	at org.mule.registry.AbstractRegistry.initialise(AbstractRegistry.java:104) ~[mule-core-3.8.4.jar:3.8.4]
+	at org.mule.config.spring.SpringXmlConfigurationBuilder.createSpringRegistry(SpringXmlConfigurationBuilder.java:177) ~[mule-module-spring-config-3.8.4.jar:3.8.4]
+	at org.mule.config.spring.SpringXmlConfigurationBuilder.doConfigure(SpringXmlConfigurationBuilder.java:100) ~[mule-module-spring-config-3.8.4.jar:3.8.4]
+	at org.mule.config.builders.AbstractConfigurationBuilder.configure(AbstractConfigurationBuilder.java:43) ~[mule-core-3.8.4.jar:3.8.4]
+	at org.mule.config.builders.AbstractResourceConfigurationBuilder.configure(AbstractResourceConfigurationBuilder.java:69) ~[mule-core-3.8.4.jar:3.8.4]
+	at org.mule.config.builders.AutoConfigurationBuilder.autoConfigure(AutoConfigurationBuilder.java:102) ~[mule-core-3.8.4.jar:3.8.4]
+	at org.mule.config.builders.AutoConfigurationBuilder.doConfigure(AutoConfigurationBuilder.java:54) ~[mule-core-3.8.4.jar:3.8.4]
+	at org.mule.config.builders.AbstractConfigurationBuilder.configure(AbstractConfigurationBuilder.java:43) ~[mule-core-3.8.4.jar:3.8.4]
+	at org.mule.config.builders.AbstractResourceConfigurationBuilder.configure(AbstractResourceConfigurationBuilder.java:69) ~[mule-core-3.8.4.jar:3.8.4]
+	at org.mule.context.DefaultMuleContextFactory$1.configure(DefaultMuleContextFactory.java:89) ~[mule-core-3.8.4.jar:3.8.4]
+	at org.mule.context.DefaultMuleContextFactory.doCreateMuleContext(DefaultMuleContextFactory.java:222) ~[mule-core-3.8.4.jar:3.8.4]
+	at org.mule.context.DefaultMuleContextFactory.createMuleContext(DefaultMuleContextFactory.java:81) ~[mule-core-3.8.4.jar:3.8.4]
+	at org.mule.module.launcher.application.DefaultMuleApplication.init(DefaultMuleApplication.java:203) ~[mule-module-launcher-3.8.4.jar:3.8.4]
+	at org.mule.module.launcher.artifact.ArtifactWrapper$2.execute(ArtifactWrapper.java:63) ~[mule-module-launcher-3.8.4.jar:3.8.4]
+	at org.mule.module.launcher.artifact.ArtifactWrapper.executeWithinArtifactClassLoader(ArtifactWrapper.java:136) ~[mule-module-launcher-3.8.4.jar:3.8.4]
+	at org.mule.module.launcher.artifact.ArtifactWrapper.init(ArtifactWrapper.java:58) ~[mule-module-launcher-3.8.4.jar:3.8.4]
+	at org.mule.module.launcher.DefaultArtifactDeployer.deploy(DefaultArtifactDeployer.java:25) ~[mule-module-launcher-3.8.4.jar:3.8.4]
+	at org.mule.module.launcher.DefaultArchiveDeployer.redeploy(DefaultArchiveDeployer.java:463) ~[mule-module-launcher-3.8.4.jar:3.8.4]
+	at org.mule.module.launcher.DeploymentDirectoryWatcher.redeployModifiedArtifacts(DeploymentDirectoryWatcher.java:562) ~[mule-module-launcher-3.8.4.jar:3.8.4]
+	at org.mule.module.launcher.DeploymentDirectoryWatcher.redeployModifiedApplications(DeploymentDirectoryWatcher.java:539) ~[mule-module-launcher-3.8.4.jar:3.8.4]
+	at org.mule.module.launcher.DeploymentDirectoryWatcher.run(DeploymentDirectoryWatcher.java:352) ~[mule-module-launcher-3.8.4.jar:3.8.4]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_131]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) ~[?:1.8.0_131]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) ~[?:1.8.0_131]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) ~[?:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_131]
+2017-05-30 18:31:47,905 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - App 'maven-project' never started, nothing to dispose of
+2017-05-30 18:32:08,157 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'maven-project'                         +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-05-30 18:32:08,172 [Mule.app.deployer.monitor.1.thread.1] WARN  com.mulesoft.module.client.APIPlatformClientCoreExtension - Client ID or Client Secret were not provided. API Manager client is DISABLED for app maven-project
+2017-05-30 18:32:08,172 [Mule.app.deployer.monitor.1.thread.1] WARN  com.mulesoft.module.client.APIPlatformClientCoreExtension - Client ID or Client Secret were not provided. API Manager client is DISABLED for app maven-project
+2017-05-30 18:32:08,172 [Mule.app.deployer.monitor.1.thread.1] WARN  com.mulesoft.module.client.APIPlatformClientCoreExtension - Client ID or Client Secret were not provided. API Manager client is DISABLED for app maven-project
+2017-05-30 18:32:08,176 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2017-05-30 18:32:08,181 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2017-05-30 18:32:08,653 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2017-05-30 18:32:08,653 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.8)
+2017-05-30 18:32:08,653 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@5a087841: startup date [Tue May 30 18:32:08 EDT 2017]; root of context hierarchy
+2017-05-30 18:32:08,956 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-05-30 18:32:09,147 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\gaujain\Mule_Advanced\workspace_1\test_maven_0530\.mule\.\.mule\maven-project\queue-tx-log\tx1.log and C:\Users\gaujain\Mule_Advanced\workspace_1\test_maven_0530\.mule\.\.mule\maven-project\queue-tx-log\tx2.log
+2017-05-30 18:32:09,147 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\gaujain\Mule_Advanced\workspace_1\test_maven_0530\.mule\.\.mule\maven-project\queue-xa-tx-log\tx1.log and C:\Users\gaujain\Mule_Advanced\workspace_1\test_maven_0530\.mule\.\.mule\maven-project\queue-xa-tx-log\tx2.log
+2017-05-30 18:32:09,157 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2017-05-30 18:32:09,167 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: maven-projectFlow
+2017-05-30 18:32:09,167 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@420edebc
+2017-05-30 18:32:09,198 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: maven-projectFlow.stage1
+2017-05-30 18:32:09,238 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\gaujain\Mule_Advanced\workspace_1\test_maven_0530\.mule\apps\maven-project\maven-project.xml'}]"
+2017-05-30 18:32:09,238 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\gaujain\Mule_Advanced\workspace_1\test_maven_0530\.mule\apps\maven-project\maven-project.xml'}]"
+2017-05-30 18:32:09,238 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'maven-project'                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-05-30 18:32:09,248 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2017-05-30 18:32:09,248 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2017-05-30 18:32:09,268 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8081
+2017-05-30 18:32:09,278 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-05-30 18:32:09,278 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2017-05-30 18:32:09,288 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: maven-projectFlow
+2017-05-30 18:32:09,288 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: maven-projectFlow.stage1
+2017-05-30 18:32:09,330 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2017-05-30 18:32:09,336 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: maven-project                                         *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   JMX Agent                                                        *
+*   Batch module default engine                                      *
+*   DevKit Extension Information                                     *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2017-05-30 18:32:34,382 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Stopping app 'maven-project'                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-05-30 18:32:34,385 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Stopping flow: maven-projectFlow
+2017-05-30 18:32:34,386 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Stopping service: maven-projectFlow.stage1
+2017-05-30 18:32:34,568 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Stopping model: _muleSystemModel
+2017-05-30 18:32:34,608 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Stopped listener on http://0.0.0.0:8081
+2017-05-30 18:32:34,618 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Stopping ResourceManager
+2017-05-30 18:32:34,618 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Stopped ResourceManager
+2017-05-30 18:32:34,618 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Disposing app 'maven-project'                            +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-05-30 18:32:34,618 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing RegistryBroker
+2017-05-30 18:32:34,618 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Disposing flow: maven-projectFlow
+2017-05-30 18:32:34,618 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Disposing service: maven-projectFlow.stage1
+2017-05-30 18:32:34,618 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing model: _muleSystemModel
+2017-05-30 18:32:34,648 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.MuleArtifactContext - Closing org.mule.config.spring.MuleArtifactContext@5a087841: startup date [Tue May 30 18:32:08 EDT 2017]; root of context hierarchy
+2017-05-30 18:32:34,729 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application "maven-project" shut down normally on: 5/30/17 6:32 PM *
+* Up for: 0 days, 0 hours, 0 mins, 25.491 sec                        *
+**********************************************************************
+2017-05-30 18:32:34,786 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'maven-project'                         +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-05-30 18:32:34,796 [Mule.app.deployer.monitor.1.thread.1] WARN  com.mulesoft.module.client.APIPlatformClientCoreExtension - Client ID or Client Secret were not provided. API Manager client is DISABLED for app maven-project
+2017-05-30 18:32:34,796 [Mule.app.deployer.monitor.1.thread.1] WARN  com.mulesoft.module.client.APIPlatformClientCoreExtension - Client ID or Client Secret were not provided. API Manager client is DISABLED for app maven-project
+2017-05-30 18:32:34,796 [Mule.app.deployer.monitor.1.thread.1] WARN  com.mulesoft.module.client.APIPlatformClientCoreExtension - Client ID or Client Secret were not provided. API Manager client is DISABLED for app maven-project
+2017-05-30 18:32:34,796 [Mule.app.deployer.monitor.1.thread.1] WARN  com.mulesoft.module.client.APIPlatformClientCoreExtension - Client ID or Client Secret were not provided. API Manager client is DISABLED for app maven-project
+2017-05-30 18:32:34,796 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2017-05-30 18:32:34,806 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2017-05-30 18:32:34,816 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2017-05-30 18:32:34,816 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.8)
+2017-05-30 18:32:34,816 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@6c1aa371: startup date [Tue May 30 18:32:34 EDT 2017]; root of context hierarchy
+2017-05-30 18:32:35,041 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-05-30 18:32:35,173 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\gaujain\Mule_Advanced\workspace_1\test_maven_0530\.mule\.\.mule\maven-project\queue-tx-log\tx1.log and C:\Users\gaujain\Mule_Advanced\workspace_1\test_maven_0530\.mule\.\.mule\maven-project\queue-tx-log\tx2.log
+2017-05-30 18:32:35,173 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\gaujain\Mule_Advanced\workspace_1\test_maven_0530\.mule\.\.mule\maven-project\queue-xa-tx-log\tx1.log and C:\Users\gaujain\Mule_Advanced\workspace_1\test_maven_0530\.mule\.\.mule\maven-project\queue-xa-tx-log\tx2.log
+2017-05-30 18:32:35,183 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2017-05-30 18:32:35,183 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: maven-projectFlow
+2017-05-30 18:32:35,183 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@25553251
+2017-05-30 18:32:35,193 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: maven-projectFlow.stage1
+2017-05-30 18:32:35,223 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\gaujain\Mule_Advanced\workspace_1\test_maven_0530\.mule\apps\maven-project\maven-project.xml'}]"
+2017-05-30 18:32:35,223 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\gaujain\Mule_Advanced\workspace_1\test_maven_0530\.mule\apps\maven-project\maven-project.xml'}]"
+2017-05-30 18:32:35,223 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'maven-project'                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-05-30 18:32:35,233 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2017-05-30 18:32:35,233 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2017-05-30 18:32:35,243 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8081
+2017-05-30 18:32:35,253 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-05-30 18:32:35,253 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2017-05-30 18:32:35,253 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: maven-projectFlow
+2017-05-30 18:32:35,253 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: maven-projectFlow.stage1
+2017-05-30 18:32:35,263 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2017-05-30 18:32:35,263 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: maven-project                                         *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   JMX Agent                                                        *
+*   Batch module default engine                                      *
+*   DevKit Extension Information                                     *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2017-05-30 18:33:11,293 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'maven-project'                         +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-05-30 18:33:12,051 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2017-05-30 18:33:12,122 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2017-05-30 18:33:12,262 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2017-05-30 18:33:12,262 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.8)
+2017-05-30 18:33:12,322 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@6fefce9e: startup date [Tue May 30 18:33:12 EDT 2017]; root of context hierarchy
+2017-05-30 18:33:13,581 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-05-30 18:33:14,367 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2017-05-30 18:33:15,215 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\gaujain\Mule_Advanced\workspace_1\test_maven_0530\.mule\.\.mule\maven-project\queue-tx-log\tx1.log and C:\Users\gaujain\Mule_Advanced\workspace_1\test_maven_0530\.mule\.\.mule\maven-project\queue-tx-log\tx2.log
+2017-05-30 18:33:15,225 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\gaujain\Mule_Advanced\workspace_1\test_maven_0530\.mule\.\.mule\maven-project\queue-xa-tx-log\tx1.log and C:\Users\gaujain\Mule_Advanced\workspace_1\test_maven_0530\.mule\.\.mule\maven-project\queue-xa-tx-log\tx2.log
+2017-05-30 18:33:15,305 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2017-05-30 18:33:15,315 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: maven-projectFlow
+2017-05-30 18:33:15,315 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@465b38e6
+2017-05-30 18:33:15,356 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: maven-projectFlow.stage1
+2017-05-30 18:33:15,581 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\gaujain\Mule_Advanced\workspace_1\test_maven_0530\.mule\apps\maven-project\maven-project.xml'}]"
+2017-05-30 18:33:15,581 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\gaujain\Mule_Advanced\workspace_1\test_maven_0530\.mule\apps\maven-project\maven-project.xml'}]"
+2017-05-30 18:33:15,651 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'maven-project'                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-05-30 18:33:15,651 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2017-05-30 18:33:15,651 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2017-05-30 18:33:15,711 [main] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8081
+2017-05-30 18:33:15,711 [main] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-05-30 18:33:15,721 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2017-05-30 18:33:15,721 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: maven-projectFlow
+2017-05-30 18:33:15,721 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: maven-projectFlow.stage1
+2017-05-30 18:33:15,771 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2017-05-30 18:33:15,801 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: maven-project                                         *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   JMX Agent                                                        *
+*   Batch module default engine                                      *
+*   DevKit Extension Information                                     *
+*   Wrapper Manager                                                  *
+**********************************************************************

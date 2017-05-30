@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+maven_preference_base_cmdline=mvn clean package
+maven_preference_default_groupid=com.mulesoft.training
+maven_preference_maven_installation_home=D\:\\Users\\gaujain\\Downloads\\MAVEN\\apache-maven-3.5.0
